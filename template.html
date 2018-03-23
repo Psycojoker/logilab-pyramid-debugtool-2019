@@ -12,24 +12,37 @@
     </div>
 </section>
 
+<!--
+
+contexte au début
+
+- dans lequel ça a été fait
+- combat politique du moment
+    - on est vraiment dans un combat politique aujourd'hui sur qui possède les données
+    - pendant longtemps on est passé pour des fous criant au diable, de pire en pire -> cambridge analytic
+    - maitrise de nos espaces de socialisations, des interfaces, "ils ne sont pas légitimes"
+- yunohost est iménament politique
+- pas une solution à tous ces problèmes
+- une fondation
+
+
+
+
+
+-->
+
 <section>
-    <h2>Me</h2>
+    <h2>Moi</h2>
 </section>
 
 <section>
-    <h3>YunoHost short history</h3>
-    <ul class="incremental">
-        <li>2011 - Beudbeud install his mail server, kload wants the same</li>
-        <li>2012 - first release</li>
-        <li>Feature list grows:
-        <ul class="incremental">
-            <li>xmpp</li>
-            <li>several domains</li>
-            <li>"applications"</li>
-            <li>SSO</li>
-            <li>etc...</li>
-        </ul>
-        </li>
+    <h3>Plan</h3> 
+    <ul>
+        <li>Contexte politique</li>
+        <li>autohébergement</li>
+        <li>YunoHost, c'est quoi/comment</li>
+        <li>Le futur</li>
+        <li>point technique (rapide)</li>
     </ul>
 </section>
 
@@ -37,26 +50,85 @@
     <h3>YunoHost <i>en gros</i></h3>
 
     <ul class="incremental">
-        <li>Before: computer was for nerd</li>
-        <li>→ now: Desktop UI</li>
+        <li>Avant : les ordinateurs c'était pour les nerds</li>
+        <li>→ maintenant : interfaces de bureau</li>
     </ul>
 
     <ul class="incremental">
-        <li>Before: server was for nerds</li>
-        <li>→ now/Futur: YunoHost (and many others)</li>
-        <li>Also other usages (Internet Cube, CHATONS, PME...)</li>
+        <li>Avant: les serveurs c'est pour les nerds</li>
+        <li>→ maintenant/Futur : YunoHost (et d'autres approches)</li>
+        <li>Ainsi que d'autres usages (Brique Internet, CHATONS, PME...)</li>
     </ul>
 </section>
 
 <section>
-    <h3>Political context</h3> 
+    <h2>Contexte Politique</h2>
+</section>
+
+<section>
+    <h3>Contexte politique</h3> 
     <ul>
-        <li>Internet Centralization</li>
+        <li>Combat politique (simplification) entre :
+            <ul class="incremental">
+                <li>partisants d'un Internet centralisé, fermé, contrôlé, de surveillance de masse, capitaliste</li>
+                <li>partisants d'un Internet décentralisé, neutre, respectueux de la vie privée, sans exploitation massive des données</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h3>Contexte politique</h3> 
+    <ul>
+        <li>minitel 2.0</li>
+        <li>HADOPI & co</li>
+        <li>capitalisme de surveillance</li>
+        <li>capitalisme de l'attention</li>
+        <li>révélations snowden</li>
+        <li>GAFAM</li>
+        <li>cambridge analytica</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Contexte politique</h3> 
+    <ul>
+        <li>Décentralisation d'Internet</li>
         <li>FDN/FFDN</li>
         <li>La Quadrature du Net</li>
-        <li>HADOPI laws & co</li>
-        <li>GAFAM</li>
-        <li>mass surveillance</li>
+        <li>Framasoft</li>
+        <li>CHATONS</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Contexte politique : nos espaces de socialisations</h3> 
+    <ul class="incremental">
+        <li>nos lieux de socialisations et de vie sont aussi sur internet</li>
+        <li>la majorité est contrôlée par les GAFAMs et co</li>
+        <li>nous n'avons pas de pouvoir instituionnalisés dessus</li>
+        <li>ce sont des entreprises (maximisation du profit) (UX)</li>
+        <li>nous ne contrôlons plus nos lieux de vie</li>
+        <li>« ils veulent remplacer les états »</li>
+        <li>(e.g: Mastodon)</li>
+    </ul>
+</section>
+
+<section>
+    <h2>L'autohébergement, une des solutions</h2>
+</section>
+
+<section>
+    <h3>L'autohébergement :</h3> 
+    <ul class="incremental">
+        <li>c'est quoi ?</li>
+        <li>revenir à un Internet décentralisé</li>
+        <li>protection des données</li>
+        <li>affaiblissement des GAFAMs</li>
+        <li>contrôle, pensé par et pous nous</li>
+        <li>complication de la surveillance de masse (~)</li>
+        <li>pas une solution miracle magique</li>
+        <li>voir aussi : CHATONS, riseup, autres...</li>
     </ul>
 </section>
 
@@ -73,7 +145,35 @@
 </section>
 
 <section>
-    <h2>But what is YunoHost?</h2>
+    <h2>Mais c'est quoi YunoHost ?</h2>
+</section>
+
+<section>
+    <h3>YunoHost, une histoire rapide</h3>
+    <ul class="incremental">
+        <li>2011 - Beudbeud installe son propre serveur mail avec SSO, kload veut pareil</li>
+        <li>2012 - première release</li>
+        <li>La liste des features grandies:
+        <ul class="incremental">
+            <li>xmpp</li>
+            <li>plusieurs domaines</li>
+            <li>"applications"</li>
+            <li>SSO</li>
+            <li>etc...</li>
+        </ul>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h3>YunoHost</h3>
+    <ul class="incremental">
+        <li>une fine couche d'abstraction au dessus de l'administration système</li>
+        <li>vers une démocratisation de l'administration système</li>
+        <li>le "bureau" du serveur</li>
+        <li>car on peut avoir tous les meilleurs services du monde, si presque personne peut les installer ça sert à rien</li>
+        <li>devient une sorte de brique de base</li>
+    </ul>
 </section>
 
 <section style="background-image: url('img/admin.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
@@ -89,6 +189,139 @@
 </section>
 
 <section style="background-image: url('img/ssoportal.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
+</section>
+
+<section style="background-image: url('img/web-comme-cli.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
+</section>
+
+<section>
+    <h3>YunoHost: c'est aussi ...</h3>
+    <ul class="incremental">
+        <li>basé sur debian</li>
+        <li>serveur mail / xmpp</li>
+        <li>intégration de let's encrypt</li>
+        <li>dyndns</li>
+        <li>firewall + iptables</li>
+        <li>"regen-conf"</li>
+        <li>small monitoring (glances)</li>
+        <li>gestion des services</li>
+        <li>et un paquet de trucs pour que ça juste marche</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Communauté, organisation et autre</h3>
+    <ul class="incremental">
+        <li>chouette communauté &lt;3</li>
+        <li>dont on est à l'écoute</li>
+        <li>1000 - 2000 instances (difficile à compter)</li>
+        <li>23 applications officielles, 203 communautaires</li>
+        <li>des briques camps</li>
+        <li>organisé en collectif</li>
+        <li>CI ("tests en continues") sur les apps</li>
+        <li>niveaux pour les applications</li>
+        <li>Forum et salons irc/xmpp/matrix</li>
+        <li>Internationalisation</li>
+        <li>quite le french</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Goodies</h3>
+    <ul class="incremental">
+        <li>backup/restore -&gt; migration gratuite</li>
+        <li>app fallback</li>
+        <li>archiviste</li>
+    </ul>
+</section>
+
+<section style="background-image: url('img/brique.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
+</section>
+
+<section>
+    <h3>Framasoft et dégooglisons Internet</h3>
+    <div>
+        <img style="width: 100%;" src="img/degooglisons-internet.jpg" />
+    </div>
+</section>
+
+<section>
+    <div style="height: 100%">
+        <h3>Les CHATONS</h3>
+        <div>
+            <img style="height: 400px; max-height: 100%; max-width: 100%" src="img/chatons.png" />
+        </div>
+    </div>
+</section>
+
+<section>
+    <h3>Et d'autres ?</h3>
+    <ul>
+        <li>PME</li>
+        <li>Associations</li>
+        <li>"Outsourcing"</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Le futur (peut être) ™</h2>
+</section>
+
+<section>
+    <h3>Le futur proche</h3>
+    <ul class="incremental">
+        <li>Migration vers strech (venez tester !)</li>
+        <li>Migration de metronome à prosody (?)</li>
+        <li>Journaux</li>
+        <li>Opérations de configuration ssh</li>
+        <li>Backup distribué ?</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Le futur hypothétique</h3>
+    <ul class="incremental">
+        <li>meilleur implication de la communauté (comment ?)</li>
+        <li>actions pour les applications</li>
+        <li>aide interactive à la configuration/validation d'un domaine</li>
+        <li>gestion par groupes d'utilisateurs et autres ?</li>
+        <li>auto-diagnostique et notifications ?</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Le futur hypothétique</h3>
+    <ul class="incremental">
+        <li>la fédération d'instances:
+            <ul>
+                <li>backup</li>
+                <li>serveur de secours</li>
+                <li>monitoring</li>
+            </ul>
+        </li>
+        <li>meilleur doc dans l'interface d'administration ?</li>
+        <li>une gestion des disques ?</li>
+        <li>"apps market" ?</li>
+        <li>vos contributions ?</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Encore plus loin ?</h3>
+    <ul class="incremental">
+        <li>une abstraction transparente auto-appropriable ?</li>
+        <li>penser les technologies décentralisées et fédérées (ex: Mastodon et activityPub)</li>
+        <li>facilité la migration entre YunoHost pour que les utilisateurs finaux gèrent leur données ?</li>
+        <li>une gouvernance encore plus ouverte ?</li>
+    </ul>
+</section>
+
+<section>
+    <h3>YunoHost ne sera jamais :</h3>
+    <ul>
+        <li>pour les turbos nerds de la super customisation</li>
+        <li>sous archlinux</li>
+    </ul>
 </section>
 
 <section>
@@ -134,14 +367,16 @@
     </div>
 </section>
 
-<section style="background-image: url('img/YunoHost-CDL2017-22.png'); background-size: 101%; background-repeat: no-repeat; background-position-y: center;">
+<section style="background-image: url('img/architecture_3d.png'); background-size: 101%; background-repeat: no-repeat; background-position-y: center;">
 </section>
 
+<!--
 <section style="background-image: url('img/architecture.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
 </section>
+-->
 
 <section>
-    <h2>How apps are made</h2>
+    <h2>Comment sont faites les applications</h2>
 </section>
 
 <section>
@@ -175,51 +410,6 @@
     </div>
 </section>
 
-<section>
-    <h3 style="margin-bottom: 20px">Features list</h3>
-    <ul style="margin-top: 0px">
-    <li>debian based</li>
-    <li>users management: emails + xmpp</li>
-    <li>domain management: dyndns, own self-signed CA or Let's Encrypt</li>
-    <li>applications with SSO</li>
-    <li>services + regen-conf + hooks</li>
-    <li>firewall + fail2ban</li>
-    <li>backup</li>
-    <li>small monitoring</li>
-    <li>and growing...</li>
-    </ul>
-</section>
-
-<section>
-    <h3>Community, organisation and others</h3>
-    <ul class="incremental">
-    <li>1000 - 2000 users (hard to count)</li>
-    <li>20 official app, 196 community</li>
-    <li>collective with our own constitution</li>
-    <li>Continuous Integration of apps</li>
-    <li>apps levels</li>
-    <li>Forum and xmpp chatrooms</li>
-    <li>Translations</li>
-    <li>quite le french</li>
-    </ul>
-</section>
-
-<section>
-    <h3>Friends</h3>
-    <ul>
-    <li>The Internet Cube / La Brique Internet</li>
-    <li>FFDN (associative ISPs)</li>
-    <li>Framasoft / CHATONS</li>
-    <li>and others &lt;3</li>
-    </ul>
-</section>
-
-<section style="background-image: url('img/YunoHost-CDL2017-14.png'); background-size: 101%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section style="background-image: url('img/YunoHost-CDL2017-15.png'); background-size: 101%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
 <!--
 
 <section>
@@ -237,7 +427,7 @@
 -->
 
 <section>
-    <h3>Install</h3>
+    <h3>Installation</h3>
     <ul>
         <li>debian + script
         <li>iso
@@ -249,31 +439,37 @@
 
 <section>
     <h3>Join Us! \o/</h3>
-    <ul class="incremental">
-        <li>Friendly team friendly community &lt;3
+    <ul>
+        <li>Chouette communauté, chouette équipe &lt;3
         <li>backend: python (simple), bash (lua)
         <li>frontend: html/js (sammy.js)
-        <li>apps: full bash, sysadmin
-        <li>security: code review
+        <li>applications: full bash, sysadmin
+        <li>securité: code review
         <li>infra: debian, deb toolchain, ruby
-        <li>community: communicate, support
-        <li>translation!
+        <li>communauté: communication, support
+        <li>traductions
         <li>documentation
         <li>testing (beta)
     </ul>
 </section>
 
 <section>
+    <h2>Conclusion</h2>
+</section>
+
+<section>
     <center>
-        <h3 style="margin-left: 0">Links</h3>
+        <h3 style="margin-left: 0">Liens</h3>
         <ul class="links">
             <li>yunohost.org
             <li>demo.yunohost.org
-            <li>yunohost.org/apps
             <li>forum.yunohost.org
             <li>dev.yunohost.org (redmine)
-            <li>github.com/yunohost
+            <li>github.com/yunohost(-apps)
+            <li>meetings mumbles
             <li>xmpp://dev@conference.yunohost.org
+            <li>irc.freenode.net#yunohost-dev
+            <li>#yunohost-dev:matrix.org
         </ul>
     </center>
 </section>
