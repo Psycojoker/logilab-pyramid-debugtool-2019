@@ -1,513 +1,271 @@
 <!DOCTYPE html>
 
 <meta charset="utf-8">
-<title>YunoHost</title>
+<title>Pyramid Debug Toolbar</title>
 
 <!-- Your Slides -->
 <!-- One section is one slide -->
 
+<!--
+
+-->
+
+<section>
+    <h2>Pyramid ?</h2>
+</section>
+
+<section>
+    <h2>Pyramid DebugToolbar <small>dans CubicWeb</small></h2>
+</section>
+
+<section>
+    <blockquote>Things should be simple, if something is hard, try to make it simple</blockquote>
+</section>
+
+
+<section>
+    <blockquote>Things should be simple, if something is hard, try to make it simple (which could, ironically, be hard)</blockquote>
+</section>
+
+<section>
+    <h3>Question</h3>
+    <ul class="incremental">
+        <li>j'ai une page affichée par CW</li>
+        <li>pourquoi j'ai ce résultat là ?</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Comment ça se passe ailleurs ?</h3>
+</section>
+
 <section>
     <div class="center" style="height: 100%; display: flex">
-        <img src="img/logo.png" style="margin: auto">
+        <img src="img/django-ddt-1.png" style="margin: auto; max-height: 100%">
     </div>
 </section>
 
-<!--
-
-contexte au début
-
-- dans lequel ça a été fait
-- combat politique du moment
-    - on est vraiment dans un combat politique aujourd'hui sur qui possède les données
-    - pendant longtemps on est passé pour des fous criant au diable, de pire en pire -> cambridge analytic
-    - maitrise de nos espaces de socialisations, des interfaces, "ils ne sont pas légitimes"
-- yunohost est iménament politique
-- pas une solution à tous ces problèmes
-- une fondation
-
-
-
-
-
--->
-
 <section>
-    <h2>Moi</h2>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/django-dtt-4.png" style="margin: auto; max-height: 100%">
+    </div>
 </section>
 
 <section>
-    <h3>Plan</h3>
-    <ul>
-        <li>Contexte politique</li>
-        <li>autohébergement</li>
-        <li>YunoHost, c'est quoi/comment</li>
-        <li>Le futur</li>
-        <li>(point technique)</li>
-    </ul>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/django-dtt-3.png" style="margin: auto; max-height: 100%">
+    </div>
 </section>
 
 <section>
-    <h3>YunoHost <i>en gros</i></h3>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/django-dtt-2.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
 
+<section>
+    <h2>Pyramid Debug Toolbar</h2>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/pdt-1.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/pdt-2.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/pdt-3.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/pdt-4.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/pdt-5.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/pdt-6.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/pdt-7.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <h2>Intégration dans CubicWeb (prototype)</h2>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/rql-1.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/rql-2.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <h2>Prototypes/Explorations</h2>
+</section>
+
+<section>
+    <h3>Question : pourquoi j'ai ce bout d'HTML dans ma page ?</h3>
+</section>
+
+<section>
+    <h3>Question : pourquoi j'ai ce bout d'HTML dans ma page ?</h3>
+    <h3>Solution : highjack de <code>self.w('html')</code></h3>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/w1.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/w2.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex; flex-direction: column">
+        <img src="img/w3.png" style="margin: auto; max-height: 100%; margin-bottom: 10px; max-width: 100%">
+        <img src="img/w4.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <h3>Question : quelles Views/Forms ont été utilisé pour ma page ?</h3>
+</section>
+
+<section>
+    <h3>Question : quelles Views/Forms ont été utilisé pour ma page ?</h3>
+    <h3>Solution : utiliser <code>sys/threading.settrace</code></h3>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/settrace.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <h3>Futur : en faire un panel dans la debug toolbar</h3>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex">
+        <img src="img/log.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <h2>Installation</h2>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex; flex-direction: column">
+        <img src="img/pdt-installation.png" style="margin: auto; max-height: 100%; margin-bottom: 10px">
+        <img src="img/pdt-patch.png" style="margin: auto; max-height: 100%; visibility: hidden">
+    </div>
+</section>
+
+<section>
+    <div class="center" style="height: 100%; display: flex; flex-direction: column">
+        <img src="img/pdt-installation.png" style="margin: auto; max-height: 100%; margin-bottom: 10px">
+        <img src="img/pdt-patch.png" style="margin: auto; max-height: 100%">
+    </div>
+</section>
+
+<section>
+    <h3>Conclusion</h3>
     <ul class="incremental">
-        <li>Avant : les ordinateurs c'était pour les nerds</li>
-        <li>→ maintenant : interfaces de bureau</li>
-    </ul>
-
-    <ul class="incremental">
-        <li>Avant/maintenant : les serveurs c'est pour les nerds</li>
-        <li>→ maintenant/Futur : YunoHost (et d'autres approches)</li>
-        <!-- <li>Ainsi que d'autres usages (Brique Internet, CHATONS, PME...)</li> -->
-    </ul>
-</section>
-
-<section>
-    <h2>Contexte Politique</h2>
-</section>
-
-<section>
-    <h3>Contexte politique</h3>
-    <ul>
-        <li>Combat politique (simplification) entre :
-            <ul class="incremental">
-                <li>partisans d'un Internet centralisé, fermé, contrôlé, de surveillance de masse, capitaliste</li>
-                <li>partisans d'un Internet décentralisé, neutre, respectueux de la vie privée, sans exploitation massive des données</li>
-            </ul>
-        </li>
-    </ul>
-</section>
-
-<section>
-    <h3>Contexte politique</h3>
-    <ul>
-        <li>minitel 2.0</li>
-        <li>HADOPI & co</li>
-        <li>capitalisme de surveillance</li>
-        <li>capitalisme de l'attention</li>
-        <li>révélations Snowden</li>
-        <li>GAFAM</li>
-        <li>Cambridge Analytica</li>
-    </ul>
-</section>
-
-<section>
-    <h3>Contexte politique</h3>
-    <ul>
-        <li>Décentralisation d'Internet</li>
-        <li>FDN/FFDN</li>
-        <li>La Quadrature du Net</li>
-        <li>Framasoft</li>
-        <li>CHATONS</li>
-    </ul>
-</section>
-
-<section>
-    <h3>Contexte politique : nos espaces de socialisations</h3>
-    <ul class="incremental">
-        <li>nos lieux de socialisations et de vie sont aussi sur internet</li>
-        <li>la majorité est contrôlée par les GAFAMs</li>
-        <li>nous n'avons pas de pouvoirs institutionnalisés dessus</li>
-        <li>ce sont des entreprises (maximisation du profit) (UX)</li>
-        <li>nous ne contrôlons plus nos lieux de vie</li>
-        <li>« ils veulent remplacer les états »</li>
-        <li>(e.g: Mastodon)</li>
-    </ul>
-</section>
-
-<section>
-    <h2>L'autohébergement, des solutions</h2>
-</section>
-
-<section>
-    <h3>L'autohébergement :</h3>
-    <ul class="incremental">
-        <li>c'est quoi ?</li>
-        <li>revenir à un Internet décentralisé</li>
-        <li>protection des données</li>
-        <li>affaiblissement des GAFAMs</li>
-        <li>contrôle, pensé par et pous nous</li>
-        <li>complication de la surveillance de masse (~)</li>
-        <li>pas une solution miracle magique</li>
-        <li>voir aussi : CHATONS, riseup, autres...</li>
-    </ul>
-</section>
-
-<section style="background-image: url('img/YunoHost-CDL2017-5.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section style="background-image: url('img/YunoHost-CDL2017-6.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section style="background-image: url('img/YunoHost-CDL2017-7.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section style="background-image: url('img/YunoHost-CDL2017-8.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section>
-    <h2>Mais c'est quoi<br>YunoHost ?</h2>
-</section>
-
-<section>
-    <h3>YunoHost, une histoire rapide</h3>
-    <ul class="incremental">
-        <li>2011 - Beudbeud installe son propre serveur mail avec SSO, kload veut pareil</li>
-        <li>2012 - première release</li>
-        <li>La liste des features grandie:
+        <li>plein de petites choses à faire pour améliorer la vie</li>
+        <li>coder un panel c'est facile</li>
+        <li>mécanisme de subscribe/unsubscript/emit</li>
+        <li>futurs autres panels potentiels :
         <ul class="incremental">
-            <li>xmpp</li>
-            <li>plusieurs domaines</li>
-            <li>"applications"</li>
-            <li>SSO</li>
-            <li>etc...</li>
-        </ul>
-        </li>
+        <li>général avec controller/options dans la config</li>
+        <li>SQL (SQLAlchemy)</li>
+        <li>DBG_* : hooks, repo, ...</li>
+        <li>uicfg</li>
+        <li>registre</li>
+        </ul></li>
     </ul>
 </section>
 
-<section>
-    <h3>YunoHost</h3>
-    <ul class="incremental">
-        <li>une fine couche d'abstraction au dessus de l'administration système</li>
-        <li>vers une démocratisation de l'administration système</li>
-        <li>le "bureau" du serveur</li>
-        <li>car on peut avoir tous les meilleurs services du monde, si presque
-            personne ne peut les installer, ça ne sert à rien</li>
-        <li>devient une sorte de brique de base</li>
-    </ul>
-</section>
+<!-- <section style="background-image: url('img/django-ddt-3.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;"></section> -->
 
-<section>
-    <h2>Screenshots</h2>
-</section>
-
-<section style="background-image: url('img/admin.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section style="background-image: url('img/apps.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section style="background-image: url('img/app_install_zerobin.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section style="background-image: url('img/tools.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section style="background-image: url('img/ssoportal.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section style="background-image: url('img/web-comme-cli.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section>
-    <h3>YunoHost : c'est aussi...</h3>
-    <ul class="incremental">
-        <li>basé sur debian</li>
-        <li>serveur mail / xmpp</li>
-        <li>intégration de let's encrypt</li>
-        <li>dyndns</li>
-        <li>firewall + iptables</li>
-        <li>"regen-conf"</li>
-        <li>small monitoring (glances)</li>
-        <li>gestion des services</li>
-        <li>et un paquet de trucs pour que ça juste marche</li>
-    </ul>
-</section>
-
-<section>
-    <h3>Le côté humain</h3>
-    <ul class="incremental">
-        <li>chouette communauté &lt;3 (dont on est à l'écoute)</li>
-        <li>~3000 instances (difficile à compter)</li>
-        <li>23 apps officielles, 203 communautaires</li>
-        <li>des briques camps</li>
-        <li>organisé en collectif</li>
-        <li>CI ("tests en continu") sur les apps</li>
-        <li>niveaux pour les applications</li>
-        <li>Forum et salons irc/xmpp/matrix</li>
-        <li>internationalisation</li>
-        <li>quite le french</li>
-    </ul>
-</section>
-
-<section>
-    <h3>Goodies</h3>
-    <ul class="incremental">
-        <li>backup/restore -&gt; migration gratuite</li>
-        <li>cloner une application ? Projet Streisand ?</li>
-        <li>app fallback</li>
-        <li>archiviste</li>
-        <li>operations logs</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Mais aussi...</h2>
-</section>
-
-<section style="background-image: url('img/brique.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<section>
-    <h3>Framasoft et dégooglisons Internet</h3>
-    <div>
-        <img style="width: 100%;" src="img/degooglisons-internet.jpg" />
-    </div>
-</section>
-
-<section>
-    <div style="height: 100%">
-        <h3>Les CHATONS</h3>
-        <div>
-            <img style="height: 400px; max-height: 100%; max-width: 100%" src="img/chatons.png" />
-        </div>
-    </div>
-</section>
-
-<section>
-    <h3>Et d'autres ?</h3>
-    <ul>
-        <li>PME</li>
-        <li>Associations</li>
-        <li>"Outsourcing"</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Le futur (peut-être)™</h2>
-</section>
-
-<section>
-    <h3>Le futur proche</h3>
-    <ul class="incremental">
-        <li>Backup distant</li>
-        <li>système de diagnostic</li>
-        <li>aide interactive à la configuration/validation d'un domaine ?</li>
-        <li>actions/config panel pour les applications</li>
-        <li>gestion de groupes d'utilisateurs ?</li>
-        <li>SSH (non pas le protocol) </li>
-        <li>vos contributions ?</li>
-    </ul>
-</section>
-
-<section>
-    <h3>YunoHost ne sera jamais :</h3>
-    <ul class="incremental">
-        <li>pour les turbos nerds de la super customisation</li>
-        <li>sous archlinux</li>
-        <li>...ni freebsd</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Architecture</h2>
-</section>
-
-<section>
-    <div style="display: flex; align-items: center; height: 100%">
-        <div>
-            <img style="width: 100%;" src="img/domains.png" />
-        </div>
-        <div style="width: 20px">
-        </div>
-        <div>
-            <img style="width: 100%;" src="img/cli.png" />
-        </div>
-    </div>
-</section>
-
-<section>
-    <div style="display: flex; align-items: center; height: 100%">
-        <div>
-            <img style="width: 100%;" src="img/domain_list.py.png" />
-        </div>
-        <div style="width: 20px">
-        </div>
-        <div>
-            <img style="width: 100%;" src="img/actionmap.png" />
-        </div>
-    </div>
-</section>
-
-<section>
-    <div style="display: flex; align-items: center; height: 100%">
-        <div>
-            <img style="width: 100%;" src="img/files.png" />
-        </div>
-        <div style="width: 20px">
-        </div>
-        <div>
-            <img style="width: 100%;" src="img/help.png" />
-        </div>
-    </div>
-</section>
-
-<section style="background-image: url('img/architecture_3d.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
-
-<!--
-<section style="background-image: url('img/architecture.png'); background-size: 100%; background-repeat: no-repeat; background-position-y: center;">
-</section>
--->
-
-<section>
-    <h2>Comment sont faites les applications</h2>
-</section>
-
-<section>
-    <div style="display: flex; align-items: center; height: 100%">
-        <div>
-            <img style="width: 100%;" src="img/app_root.png" />
-        </div>
-        <div style="width: 20px">
-        </div>
-        <div>
-            <img style="width: 100%;" src="img/app_scripts.png" />
-        </div>
-        <div style="width: 20px">
-        </div>
-        <div>
-            <img style="width: 100%;" src="img/manifest.json.png" />
-        </div>
-    </div>
-</section>
-
-<section>
-    <div style="display: flex; align-items: center; height: 100%">
-        <div>
-            <img style="width: 100%;" src="img/app_install_jirafeau.png" />
-        </div>
-        <div style="width: 20px">
-        </div>
-        <div>
-            <img style="width: 100%;" src="img/app_install.png" />
-        </div>
-    </div>
-</section>
 
 <!--
 
-<section>
-    <h3>Future/Dreams/Ideas</h3>
-    <ul>
-        <li>borg backup
-        <li>friends backup each others
-        <li>monitoring
-        <li>friends monitor each others
-        <li>auto detect error
-        <li>auto repair errors?
-        <li>"app market"
-    </ul>
-</section>
+- qu'est-ce qui se passe quand ma page se charge ?
+
+- debug toolbar de django
+
+pyramid DebugToolbar:
+- par défaut
+- traceback + debugger
+- panel pour RQL
+- how to install / mon patch
+- bilan du dev dessus du panel
+- méchanisme de channels de messages de debug
+
+Prototypes:
+- répondre à la question: qu'est-ce qui a généré quoi ?
+- display self.w en cli
+- version dans l'html
+- version avec les cadres verts
+
+- le truc qui affiche toutes les vues/forms appelées
+- dans un panel ?
+
+La suite ?
+- développements futures ? les DBG_*
+- une page CW pour les vues appelées etc ...
+- pour tout ce qui est uicfg ?
+
 -->
 
-<section>
-    <h3>Installation</h3>
-    <ul>
-        <li>debian + script</li>
-        <li>iso</li>
-        <li>rpi</li>
-        <li>olimex</li>
-        <li>vagrant</li>
-    </ul>
-</section>
 
-<section>
-    <h3>Join Us! \o/</h3>
-    <ul>
-        <li>Chouette communauté, chouette équipe &lt;3</li>
-        <li>backend : python (simple), bash (lua)</li>
-        <li>frontend : html/js (sammy.js)</li>
-        <li>applications : full bash, sysadmin</li>
-        <li>securité : code review</li>
-        <li>infra : debian, deb toolchain, ruby</li>
-        <li>communauté : communication, support</li>
-        <li>traductions</li>
-        <li>documentation</li>
-        <li>testing (beta)</li>
-    </ul>
-</section>
 
-<section>
-    <h2>Conclusion</h2>
-</section>
 
-<section>
-    <center>
-        <h3 style="margin-left: 0">Liens</h3>
-        <ul class="links">
-            <li>yunohost.org</li>
-            <li>demo.yunohost.org</li>
-            <li>forum.yunohost.org</li>
-            <li>dev.yunohost.org (redmine)</li>
-            <li>github.com/yunohost(-apps)</li>
-            <li>meetings mumbles</li>
-            <li>xmpp://dev@conference.yunohost.org</li>
-            <li>irc.freenode.net#yunohost-dev</li>
-            <li>#yunohost-dev:matrix.org</li>
-        </ul>
-    </center>
-</section>
 
-<section>
-    <h2>Questions?</h2>
-</section>
 
-<!--
-moi
-"YunoHost est un outil qui vous permet d’installer et d’utiliser facilement votre propre serveur.""
-histoire:
- * 2011 beudbeud install son serveur mail, kload "je veux le même"
- * c'est super chiant à porter -> coder un truc
-partant de là YunoHost a évoléu petit à petit:
-* emails
-* xmpp
-* several domains
-* dyndns
-* "applications"
-* services
-* firewalls
-* backup
-* SSO
-* etc...
-Context fortement politisé: lqdn, ffdn, etc...
 
-graphique architecture
 
-cli vs admin
-exemple de code + yaml + commande
 
-regen conf
-hooks
 
-community
-* forum
-* # of users
-* very le french
 
-Framasoft
-La brique Internet
 
-organisation
-* schéma
 
-latest release with LE
 
-Apps:
-* levels
-* CI
 
-Ideas/future/dreams:
-* borg backup
-* friends backup each others
-* monitoring
-* friends monitor each others
-* auto detect error (bad domain configuration, blocked ports)
-* "app market"
--->
 
-<!-- Your Style -->
-<!-- Define the style of your presentation -->
+
 
 <!-- Maybe a font from http://www.google.com/webfonts ? -->
 <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
